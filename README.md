@@ -20,7 +20,7 @@ Dirty script to skip 66% of the boring boilerplate of generating NPCs for writin
    - Set `KANKA_CAMPAIGN_ID` from the campaign URL (`kanka.io/en/campaign/{campaign_id}`)
 5. <https://perchance.org/diy-perchance-api>
    - Set `GLITCH_DOMAIN` from your <https://glitch.me> domain (`{domain}.glitch.me`)
-6. Set `KANKAGEN_PERCHANCE_GENERATOR_ID` from your <https://perchance.org/> URL (`perchance.org/{generator_id}`_e.g._ <https://perchance.org/ono-character-background>)
+6. Set `KANKAGEN_PERCHANCE_GENERATOR_ID` from your <https://perchance.org/> URL (`perchance.org/{generator_id}`; _e.g._ <https://perchance.org/ono-character-background>)
 
 Example `.env`:
 
