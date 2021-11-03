@@ -26,7 +26,7 @@ class PerchanceApi:
     def _request(cls, generator: str) -> str:
         resp = request(
             'GET', f'{cls.__GLITCH_BASE_URL}?generator={generator}&list=output')
-        body = resp.content.decode('latin1')
+        body = resp.content.decode(resp.encoding or 'latin1')
         return body
 
     @classmethod
@@ -66,7 +66,7 @@ class KankaApi:
             headers=cls.HEADERS,
             **kwargs
         )
-        body = resp.content.decode('latin1')
+        body = resp.content.decode(resp.encoding or 'latin1')
         data: _T_JSON = json.loads(body)
         return data
 
