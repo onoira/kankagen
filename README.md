@@ -38,6 +38,8 @@ Example `.env`:
 
 This repository is not open for contributions. Forking is encouraged.
 
+Please feel free to [start a discussion](https://github.com/onoira/kankagen/discussions/new).
+
 ## License
 
 [AGPLv3](LICENSE)
